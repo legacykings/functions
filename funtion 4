@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+void hoursToSeconds(int hours);
+
+int main() {
+
+	hoursToSeconds(1);
+	
+
+
+}
+void hoursToSeconds(int hours) {
+	cout << hours * 60 * 60 << endl;
+	
+}
