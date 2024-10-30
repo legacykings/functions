@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+void drawLine(int length);
+
+int main() {
+
+	
+	drawLine(8);
+
+
+}
+void drawLine(int length) {
+	for (int i = 0; i < length; i++) {
+		cout << "-";
+	}
+}
