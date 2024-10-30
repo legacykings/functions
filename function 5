@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+int findMax(int x, int y, int z);
+
+int main() {
+
+	
+	cout<<findMax(60, 85, 75);
+
+
+}
+int findMax(int x, int y, int z) {
+	if (x > y && x > z)
+		return x;
+	else if (y > x && y > z)
+		return y;
+	else
+		return z;
+}
